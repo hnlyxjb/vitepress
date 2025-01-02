@@ -25,4 +25,4 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-## 我的第一个vitepress站点
+## 我的第一个vitepress站
