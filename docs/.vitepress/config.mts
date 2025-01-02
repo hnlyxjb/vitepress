@@ -4,7 +4,8 @@ import { getSidebar } from "./utils/auto-gen-sidebar.mjs";	// 自动获取sideba
 export default defineConfig({
   title: "My notes",
   description: "我的文档",
-  head: [["link", { rel: "icon", href: "/note.svg" }]],
+  base: "/vitepress/",
+  head: [["link", { rel: "icon", href: "/vitepress/note.svg" }]],
   themeConfig: {
     logo: '/note.svg',
     outlineTitle: '本页内容', // 替换成你想要的标题
