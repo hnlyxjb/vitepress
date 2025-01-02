@@ -3,6 +3,7 @@ node_modules/
 
 # 忽略 VitePress 生成的静态文件
 docs/.vitepress/dist/
+docs/.vitepress/cache/
 
 # 忽略日志文件
 npm-debug.log*
