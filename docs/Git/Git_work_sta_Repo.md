@@ -14,15 +14,15 @@
 
 1. 工作区 -> 暂存区
 
-```git
-git add filename //将工作区的某个文件添加到暂存区
-git add . //将所有工作区的文件田间到暂存区
+```bash
+git add filename #将工作区的某个文件添加到暂存区
+git add . #将所有工作区的文件田间到暂存区
 ```
 
 2. 暂存区-> 版本库
 
-```
-git commit -m "message" //将暂存区提交到版本库，引号内是提交的摘要
+```bash
+git commit -m "message" #将暂存区提交到版本库，引号内是提交的摘要
 ```
 
 > **注：** 在 Linux 系统中，commit 信息使用单引号 **'**，Windows 系统，commit 信息使用双引号 **"**。
@@ -30,16 +30,16 @@ git commit -m "message" //将暂存区提交到版本库，引号内是提交的
 
 3. 版本库 -> 远程仓库
 
-```
-git push orgin master //将版本库推送到远程master分支，可以根据实际需要修改分支名称
+```bash
+git push orgin master #将版本库推送到远程master分支，可以根据实际需要修改分支名称
 ```
 
 4. 远程仓库 -> 本地版本库
 
-```
-git pull origin master //直接从远程仓库更新并且合并工作区
+```bash
+git pull origin master #直接从远程仓库更新并且合并工作区
 # 或者
-git fetch orgin master //从远程仓库更新到本地版本库，不更新工作区
-git merge orgin/master //合并版本库到工作区
+git fetch orgin master #从远程仓库更新到本地版本库，不更新工作区
+git merge orgin/master #合并版本库到工作区
 ```
 
